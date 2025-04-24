@@ -1,5 +1,5 @@
 with open ("first.txt","w+") as d:
-    d.write("SHYAM is a person\nHe is also a small child")
+    d.write("SHYAM is a an the Student\nHe is studying in PDEU")
 
 with open ("first.txt","r") as d:
     ch=d.readlines()
