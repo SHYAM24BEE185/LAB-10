@@ -1,9 +1,9 @@
 import shutil,os
 
-if os.path.exists("D:\\Devansh\\Python\\practice"):
+if os.path.exists("D:\\SHYAM\\Python\\practice"):
     print("Path already exists")
 else:
-    os.mkdir('D:\\Devansh\\Python\\practice')
+    os.mkdir('D:\\SHYAM\\Python\\practice')
     print("Made new directory")
 
-shutil.copyfile('D:\\Devansh\\Python\\File.txt','D:\\Devansh\\Python\\practice\\Copyfile.txt')
+shutil.copyfile('D:\\SHYAM\\Python\\File.txt','D:\\SHYAM\\Python\\practice\\Copyfile.txt')
